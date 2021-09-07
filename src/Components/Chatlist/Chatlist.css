@@ -61,19 +61,19 @@
 }
 .recent_chat_profile, .chat_chat_profile{
     display: flex;
-    margin-top: 20px;   
+    /* margin-top: 20px;    */
     padding: 10px;
     cursor: pointer;
 }
 .chat_chat_profile:hover{
     background-color: var(--gunmetal);
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     
 
 }
 .recent_chat_profile_text{
     width: 70%;
-    justify-content: start;
+    /* justify-content: start; */
     display: flex;
     align-items: center; 
     height: 40px;   
@@ -83,7 +83,7 @@
 }
 .recent_chat_profile_name{
     width: 70%;
-    justify-content: start;
+    /* justify-content: start; */
     display: flex;
     flex-direction: column;
 }
@@ -97,5 +97,5 @@
 }
 .chat_list_container{
     overflow-y: scroll;
-    max-height: 500px;
+    max-height: 270px;
 }

@@ -1,0 +1,4 @@
+.chat_screen{
+    background-color: var(--chat-screen);
+    border-radius: 15px;
+}

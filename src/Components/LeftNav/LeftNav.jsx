@@ -13,7 +13,6 @@ import {
 
 export default function LeftNav() {
     return (
-        <>
         <div className="col-md-1 p-4 border-right m-0">
             <div className="nav_profile mt-3">
                 <p className="m-0">PP</p>
@@ -41,6 +40,5 @@ export default function LeftNav() {
                 <FiMoon />
             </div>   
         </div>
-     </>
     )
 }

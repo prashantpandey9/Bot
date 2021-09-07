@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 :root{
-  --raisin-black: #1e212aff;
-  --eerie-black: #15191cff;
-  --denim-blue: #3044c9ff;
-  --pastel-pink: #eeafb1ff;
+  --background-black: #1e212aff;
+  --chat-screen: #15191cff;
+  --bluehover: #3044c9ff;
+  --pdf: #eeafb1ff;
   --gunmetal: #252c36ff;
   --icons: #4B505F;
   --typing: #8294AD;
@@ -18,11 +18,21 @@ body {
     font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--raisin-black)!important;
+  background-color: var(--background-black)!important;
   color: #fff!important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+	height: 5px;
+	width: 5px;
+	background: var(--background-black);
+  }
+::-webkit-scrollbar-thumb {
+	background: var(--gunmetal);
+  border-radius: 20px;
 }

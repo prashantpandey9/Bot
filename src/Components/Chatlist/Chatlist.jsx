@@ -20,8 +20,52 @@ const CustomSearch = styled('div')`
         background-color: var(--gunmetal);
     }
 `
-
 export default function Chatlist() {
+    const chatlist = [
+        {
+            "short_name": "SP",
+            "name": "Shubham Pandey",
+            "typing": true,
+            "time": "11:11",
+        },
+        {
+            "short_name": "AB",
+            "name": "Ayush Bisht",
+            "typing": false,
+            "time": "9:13",
+        },
+        {
+            "short_name": "RT",
+            "name": "Rajat Tiwari",
+            "typing": true,
+            "time": "9:13",
+        },
+        {
+            "short_name": "KT",
+            "name": "Kriti Tripathi",
+            "typing": false,
+            "time": "11:15",
+        },
+        {
+            "short_name": "PA",
+            "name": "Pooja Agarwal",
+            "typing": true,
+            "time": "11:15",
+        },
+        {
+            "short_name": "RJ",
+            "name": "Raghav Juyal",
+            "typing": false,
+            "time": "11:15",
+        },
+        {
+            "short_name": "DP",
+            "name": "Drishti Pant",
+            "typing": true,
+            "time": "11:15",
+        }
+    ]
+
     return (
         <div className="col-md-3 p-4 m-0">
             <div className="chatlist_profile mt-3">
@@ -56,15 +100,15 @@ export default function Chatlist() {
 
             </div>
             <div className="chat_list_container">
-                {[...Array(6)].map(()=>(
-                    <div className="chat_chat_profile">
-                        <div className="chat_profile_chat_image">PP</div>
+                {chatlist.map((e, index)=>(
+                    <div className="chat_chat_profile" key={index}>
+                        <div className="chat_profile_chat_image">{e.short_name}</div>
                         <p className="recent_chat_profile_name ps-3 m-0">
-                            <span>Ayush Bisht</span>
-                            <span className="chat_chat_profile_typing">typing...</span>
+                            <span>{e.name}</span>
+                            <span className="chat_chat_profile_typing">{e.typing? "typing...":""}</span>
                         </p>
                         
-                        <span className="chat_chat_profile_time">11:15</span>
+                        <span className="chat_chat_profile_time">{e.time}</span>
                     </div>
                 ))}
             </div>
