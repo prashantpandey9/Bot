@@ -1,0 +1,101 @@
+.chatlist_profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.border-bottom{
+    border-bottom: 2px solid var(--icons) !important;
+}
+.chat_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+.chat_profile_image{
+    display: flex;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--icons);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+    font-weight: 600;
+}
+.chat_profile_chat_image{
+    display: flex;
+    width:  50px;
+    height: 50px;
+    background-color: var(--icons);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; 
+    font-size: 14px;
+    font-weight: 600;
+}
+.chat_chat_profile:hover .chat_profile_chat_image{
+    background-color: #fff;
+    color: #000;
+}
+.chat_profile_name{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.chat_profile_status_active{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+}
+.chat_profile_status{
+    display: flex;
+    align-items: center;
+}
+.recent_chat_profile, .chat_chat_profile{
+    display: flex;
+    margin-top: 20px;   
+    padding: 10px;
+    cursor: pointer;
+}
+.chat_chat_profile:hover{
+    background-color: var(--gunmetal);
+    border-radius: 10px;
+    
+
+}
+.recent_chat_profile_text{
+    width: 70%;
+    justify-content: start;
+    display: flex;
+    align-items: center; 
+    height: 40px;   
+}
+.recent_chat_profile_icons{
+    text-align: center;
+}
+.recent_chat_profile_name{
+    width: 70%;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+}
+.chat_chat_profile_typing, .chat_chat_profile_time{
+    color: var(--typing);
+    align-items: center;
+    cursor: pointer;
+}
+.chat_chat_profile_time{
+    font-size: 12px;
+}
+.chat_list_container{
+    overflow-y: scroll;
+    max-height: 500px;
+}

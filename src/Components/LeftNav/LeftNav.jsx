@@ -14,9 +14,9 @@ import {
 export default function LeftNav() {
     return (
         <>
-        <div className="col-md-1 p-4 border-right h-100 m-0">
+        <div className="col-md-1 p-4 border-right m-0">
             <div className="nav_profile mt-3">
-                <p className="m-0">ATOS</p>
+                <p className="m-0">PP</p>
             </div>
             <div className="mb-5 pb-5"></div>
             

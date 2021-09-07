@@ -6,6 +6,7 @@
   --pastel-pink: #eeafb1ff;
   --gunmetal: #252c36ff;
   --icons: #4B505F;
+  --typing: #8294AD;
 
 }
 
@@ -25,7 +26,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-
-/* CSS HEX */
