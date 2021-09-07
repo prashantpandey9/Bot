@@ -2,3 +2,12 @@
     background-color: var(--chat-screen);
     border-radius: 15px;
 }
+.chat_screen_header{
+    display: flex;
+    flex-direction: row;
+}
+.chat_screen_title{
+    width: 80%;
+    display: flex;
+    align-items: center; 
+}
