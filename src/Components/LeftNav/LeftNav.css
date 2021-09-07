@@ -1,0 +1,15 @@
+.mainnav{
+    display: flex;
+    flex-direction: column;
+    max-width: 90px;
+}
+.nav_profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--denim-blue);
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}

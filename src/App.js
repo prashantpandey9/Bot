@@ -1,9 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './Pages/Home/Home'
 
 function App() {
   return (
-    <div className="App">
-      hello
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="*" component={Home}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
