@@ -1,0 +1,29 @@
+
+.nav_profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--bluehover);
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.icon_styles{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: var(--icons);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.icon_styles:hover{
+    background-color: var(--bluehover);
+    cursor: pointer;
+    color: #fff;
+}
+.border-right{
+    border-right: 2px solid var(--icons);
+}
