@@ -19,7 +19,7 @@ export default function LeftNav() {
             </div>
             <div className="mb-5 pb-5"></div>
             
-            <div className="icon_styles mt-3">
+            <div className="icon_styles mt-3 active_icon">
                 <VscHome />
             </div>
             <div className="icon_styles mt-3">
@@ -36,7 +36,7 @@ export default function LeftNav() {
             <div className="icon_styles mt-1">
                 <FiSun />
             </div> 
-            <div className="icon_styles mt-1">
+            <div className="icon_styles mt-1 active_icon">
                 <FiMoon />
             </div>   
         </div>

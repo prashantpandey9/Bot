@@ -7,7 +7,7 @@ const Customcheck = styled(AiOutlineCheckCircle)`
 color: var(--icons);
 `
 export const  CustomSearch = styled('div')`
-    color: #fff;
+    color: var(--font-white);
     width: 40px;
     height: 40px;
     align-items: center; 
@@ -101,7 +101,7 @@ export default function Chatlist() {
             </div>
             <div className="chat_list_container">
                 {chatlist.map((e, index)=>(
-                    <div className="chat_chat_profile" key={index}>
+                    <div className={`chat_chat_profile ${index===0? "active_chat_chat_profile": ""}`} key={index}>
                         <div className="chat_profile_chat_image">{e.short_name}</div>
                         <p className="recent_chat_profile_name ps-3 m-0">
                             <span>{e.name}</span>

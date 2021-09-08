@@ -65,7 +65,7 @@
     padding: 10px;
     cursor: pointer;
 }
-.chat_chat_profile:hover{
+.chat_chat_profile:hover, .active_chat_chat_profile{
     background-color: var(--gunmetal);
     border-radius: 10px 0px 0px 10px;
     

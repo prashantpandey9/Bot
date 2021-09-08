@@ -19,10 +19,10 @@
     border-radius: 10px;
     font-size: 20px;
 }
-.icon_styles:hover{
+.icon_styles:hover, .active_icon{
     background-color: var(--bluehover);
     cursor: pointer;
-    color: #fff;
+    color: var(--font-white);
 }
 .border-right{
     border-right: 2px solid var(--icons);
