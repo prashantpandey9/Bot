@@ -105,7 +105,7 @@ export default function Chatlist() {
                         <div className="chat_profile_chat_image">{e.short_name}</div>
                         <p className="recent_chat_profile_name ps-3 m-0">
                             <span>{e.name}</span>
-                            <span className="chat_chat_profile_typing">{e.typing? "typing...":"Yo!"}</span>
+                            <span className="chat_chat_profile_typing">{e.typing? "typing...":"🤣🤣🤣"}</span>
                         </p>
                         
                         <span className="chat_chat_profile_time">{e.time}</span>

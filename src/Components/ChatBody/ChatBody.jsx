@@ -18,7 +18,9 @@ export default function ChatBody() {
                     <p className="px-3 chat_screen_title">typing...</p>
                      
                 </div>
-                <CustomSearch><BiSearch /></CustomSearch>
+                <CustomSearch>
+                    <BiSearch />
+                </CustomSearch>
                 
             </div>
             <div className="border-bottom mt-3"></div>
@@ -36,7 +38,7 @@ export default function ChatBody() {
                             Shubham Pandey, 11:11
                         </div>
                         <div className="chat_screen_chat_text mx-2 my-1">
-                            Okay.
+                        🔥🤣
                         </div>
                         <div className="chat_screen_chat_text mx-2 my-1">
                         Lorem Ipsum is simply dummy text of the printing.
@@ -55,7 +57,7 @@ export default function ChatBody() {
                             Prashant Pandey Pandey, 11:45
                         </div>
                         <div className="chat_screen_chat_text ms-auto  mx-2 my-1">
-                            Okay.
+                            🤣🤣🤣🤣🤣🤣🤣
                         </div>
                         <div className="chat_screen_chat_text ms-auto  mx-2 my-1">
                         Lorem Ipsum is simply dummy text of the printing.
