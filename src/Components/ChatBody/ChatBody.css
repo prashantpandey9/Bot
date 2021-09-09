@@ -1,16 +1,22 @@
+/* For main chat window */
 .chat_screen{
     background-color: var(--chat-screen);
     border-radius: 15px;
 }
+
+/* Chat screen header */
 .chat_screen_header{
     display: flex;
     flex-direction: row;
 }
-.chat_screen_title{
-    width: 80%;
+.chat_profile_chat_name{
     display: flex;
-    align-items: center; 
+    flex-direction: column;
+    width: 80%;
+    align-items: left; 
 }
+
+/* Chats of user */
 .chat_screen_chat_container{
     overflow-y: auto;
     height: 440px;
@@ -18,6 +24,14 @@
     margin: 0px;
     padding: auto;
 }
+.chat_screen_msg_left, .chat_screen_msg_right{
+    display: flex;
+    flex-direction: row;
+}
+.chat_screen_msg_right{
+    flex-direction: row-reverse;
+}
+
 .chat_screen_chat_container_text{
     display: flex;
     flex-direction: column;
@@ -42,13 +56,7 @@
     justify-content: center;
     align-self: flex-end;
 }
-.chat_screen_msg_left, .chat_screen_msg_right{
-    display: flex;
-    flex-direction: row;
-}
-.chat_screen_msg_right{
-    flex-direction: row-reverse;
-}
+
 .chat_screen_msg_left .chat_screen_chat_text{
     width: fit-content; 
     background-color: var(--gunmetal);
@@ -78,4 +86,22 @@
 
 .chat_screen_chat_time{
     font-size: 12px;
+}
+
+/* FOr Typing space below chat screen */
+.chat_screen_typing_space{
+    background-color: var(--gunmetal);
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+}
+.chat_screen_typing_space_input{
+    width: 70%;
+    height: 50px;
+    background-color: transparent;
+    border: 0px solid #565656 !important;
+    outline: none;
+    color: var(--typing);
+    padding: 7px;
 }
