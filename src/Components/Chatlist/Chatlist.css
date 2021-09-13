@@ -96,6 +96,7 @@
     font-size: 12px;
 }
 .chat_list_container{
+    overflow: none;
     overflow-y: scroll;
     max-height: 270px;
 }

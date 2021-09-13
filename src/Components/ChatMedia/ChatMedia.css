@@ -1,0 +1,67 @@
+.chat_media_media{
+    display: flex;
+}
+.chat_media_image{
+    width: 120px;
+    height: 80px;
+    border-radius: 8px;
+    margin-inline-end: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    
+}
+.chat_media_image:nth-child(1){
+    background-color: var(--gunmetal);
+    
+}
+.chat_media_image:nth-child(2){
+    background-color: var(--bluehover);
+}
+.chat_media_icon{
+    font-size: 30px;
+}
+.chat_media_attach{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_media_attach_contain{
+    display: flex;
+    flex-direction: row;
+    
+}
+.chat_media_attach_contain p{
+    font-size: 14px;
+}
+.chat_media_media_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.chat_media_attach_contain:nth-child(1) .chat_media_media_icon{
+    background-color: var(--pdf);
+    
+}
+.chat_media_attach_contain:nth-child(2) .chat_media_media_icon{
+    background-color: var(--zip);
+}
+.chat_media_attach_contain:nth-child(3) .chat_media_media_icon{
+    background-color: var(--xl);
+}
+
+.scroll_down{
+    background-color: var(--gunmetal);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 16px;
+}

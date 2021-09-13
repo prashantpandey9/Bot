@@ -7,7 +7,7 @@ import ChatMedia from '../../Components/ChatMedia/ChatMedia'
 export default function Home() {
     return (
         <div className="container-fluid">
-            <div className="row no-gutters mt-3">
+            <div className="row no-gutters my-2">
                 <LeftNav />
                 <Chatlist />
                 <ChatBody />

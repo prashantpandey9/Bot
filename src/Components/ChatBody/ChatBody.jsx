@@ -10,7 +10,7 @@ import {
 
 export default function ChatBody() {
     return (
-        <div className="col-md-5 p-3 mb-3  chat_screen">
+        <div className="col-md-5 p-3   chat_screen">
             <div className="chat_screen_header">
                 <div className="chat_profile_chat_image">SP</div>
                 <div className="chat_profile_chat_name">

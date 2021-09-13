@@ -1,6 +1,11 @@
 import React from 'react'
 import './Chatlist.css'
-import { AiOutlineCheckCircle, BiSearch, BsThreeDotsVertical } from 'react-icons/all'
+import { 
+    AiOutlineCheckCircle, 
+    BiSearch, 
+    BsThreeDotsVertical,
+    BiChevronDown
+} from 'react-icons/all'
 import styled from 'styled-components'
 
 const Customcheck = styled(AiOutlineCheckCircle)`
@@ -112,7 +117,9 @@ export default function Chatlist() {
                     </div>
                 ))}
             </div>
-            
+            <div className="scroll_down m-auto mt-1">
+                <BiChevronDown className=""/>
+            </div>
 
 
         </div>
