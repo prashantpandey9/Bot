@@ -28,8 +28,8 @@ export const  CustomSearch = styled('div')`
 export default function Chatlist() {
     const chatlist = [
         {
-            "short_name": "SP",
-            "name": "Shubham Pandey",
+            "short_name": "RD",
+            "name": "Rahul Dua",
             "typing": true,
             "time": "11:11",
         },

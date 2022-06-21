@@ -14,7 +14,7 @@ export default function ChatBody() {
             <div className="chat_screen_header">
                 <div className="chat_profile_chat_image">SP</div>
                 <div className="chat_profile_chat_name">
-                    <p className="px-3 chat_screen_title m-0">Shubham Pandey</p>
+                    <p className="px-3 chat_screen_title m-0">Rahul Dua</p>
                     <p className="px-3 chat_screen_title">typing...</p>
                      
                 </div>
@@ -35,7 +35,7 @@ export default function ChatBody() {
                     
                    <div className="chat_screen_chat_container_text ms-1">
                         <div className="chat_screen_chat_time mx-3 ">
-                            Shubham Pandey, 11:11
+                            Rahul Dua, 11:11
                         </div>
                         <div className="chat_screen_chat_text mx-2 my-1">
                         🔥🤣
@@ -72,7 +72,7 @@ export default function ChatBody() {
                     
                    <div className="chat_screen_chat_container_text ms-1">
                         <div className="chat_screen_chat_time mx-3 ">
-                            Shubham Pandey, 11:11
+                            Rahul Dua, 11:11
                         </div>
                         <div className="chat_screen_chat_text mx-2 my-1">
                             Okay.
@@ -109,7 +109,7 @@ export default function ChatBody() {
                     
                    <div className="chat_screen_chat_container_text ms-1">
                         <div className="chat_screen_chat_time mx-3 ">
-                            Shubham Pandey, 11:11
+                            Rahul Dua, 11:11
                         </div>
                         <div className="chat_screen_chat_text mx-2 my-1">
                             Okay.
