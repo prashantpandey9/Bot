@@ -12,8 +12,8 @@ export default function ChatMedia() {
     return (
         <div className="col-md-3 p-4 mb-3 ">
             <div className="chat_profile">
-                <div className="chat_profile_image">SP</div>
-                <div className="chat_profile_name">Shubham Pandey</div>
+                <div className="chat_profile_image">RD</div>
+                <div className="chat_profile_name">Rahul Dua</div>
                 
             </div>
             <div className="border-bottom mt-3"></div>
